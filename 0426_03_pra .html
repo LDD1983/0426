@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        body{
+            /* width 盡量設定為百分比 % */
+            width:1300px ;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin: 30px auto;
+            border: 5px double black;
+            flex-wrap: wrap;
+        }
+        .header,.nav,.main,.footer{
+
+            
+            margin-top: 30px;
+        }
+        .header> p{
+            margin: -7px auto;
+        }
+        .nav{
+            border-top: 3px solid black;
+            border-bottom: 1px solid black;
+
+        }
+        
+        .nav > ul{
+            /* width 盡量設定為百分比 % */
+            width: 1049px;
+            padding: 0px;
+            
+          
+            margin: 0px auto;
+        }
+        ul>li{
+            display: inline-block;
+        }
+        li>a{
+            display: block;
+            height: 50px;
+            width: 200px;
+            text-decoration: none;
+            padding-top: 17px;
+        }
+
+        li>a:visited{
+            color: black;
+        }
+        li>a:hover{
+            color: red;
+        }
+
+              
+        footer{
+            /* width 盡量設定為百分比 % */
+            width: 1049px;
+            text-align: center;
+            /* border: 1px solid #ccc; */
+            margin-bottom: 30px;
+            letter-spacing: 3px;
+        }
+
+        
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <p>THE</p>
+        <p style="font-size: 30px;" >ANALOG</p>
+        <p style="font-size: 15px;font-family: 'simsum'; letter-spacing: 3.5px;">SPECIALISTS</p>
+
+    </div>
+    <nav class="nav">
+        <ul>
+            <li> <a href="">HOME    </a> </li>
+            <li> <a href="">FOR SALE</a> </li>
+            <li> <a href="">REPAIRS </a> </li>
+            <li> <a href="">ABOUT   </a> </li>
+            <li> <a href="">CONTACT </a> </li>
+        </ul>
+
+    </nav>
+    <main class="main">
+        <img src="./img/content.png" alt="">
+    </main>
+    <footer class="footer">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus veniam tempore laborum nostrum adipisci
+        similique facilis saepe, sit voluptatem eligendi, qui maxime aut repudiandae asperiores atque esse nam? Placeat,
+        autem.
+    </footer>
+
+</body>
+
+</html>

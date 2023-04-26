@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NAV BAR</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        ul {
+            list-style-type: none;
+            background-color: lightsalmon;
+            padding: 0px;
+            text-align: center;
+
+
+        }
+
+        li {
+            display: inline-block;
+            text-align: center;
+
+
+        }
+
+        li>a {
+            display: block;
+            text-decoration: none;
+            width: 100px;
+            height: 30px;
+
+
+            padding-top: 5px;
+        }
+
+        li>a:hover {
+            background-color: white;
+            
+        }
+
+        [class^="container"] {
+            
+            height: 50vh;
+            border: 1px solid #ccc;
+        }
+        [class^="container"]>p{
+            margin: 0 auto;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <!-- nav導覽列 navigation bar -->
+    <ul>
+        <li> <a href="#news">News </a> </li>
+        <li> <a href="#home">Home </a> </li>
+        <li> <a href="#product">Product</a> </li>
+        <li> <a href="#content">Content</a> </li>
+        <li> <a href="#others">Others </a> </li>
+    </ul>
+
+    <div class="container-news" id="news">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut pariatur voluptas cupiditate quasi aliquam eius
+            et voluptate, corporis voluptatibus nemo repudiandae eaque ipsam quas ipsum quam esse iste voluptatem ullam!
+        </p>
+        <a href="#">top</a>
+
+    </div>
+    <div class="container-home" id="home">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut pariatur voluptas cupiditate quasi aliquam eius
+            et voluptate, corporis voluptatibus nemo repudiandae eaque ipsam quas ipsum quam esse iste voluptatem ullam!
+        </p>
+        <a href="#">top</a>
+    </div>
+    <div class="container-product" id="product">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut pariatur voluptas cupiditate quasi aliquam eius
+            et voluptate, corporis voluptatibus nemo repudiandae eaque ipsam quas ipsum quam esse iste voluptatem ullam!
+        </p>
+        <a href="#">top</a>
+    </div>
+    <div class="container-content" id="content">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut pariatur voluptas cupiditate quasi aliquam eius
+            et voluptate, corporis voluptatibus nemo repudiandae eaque ipsam quas ipsum quam esse iste voluptatem ullam!
+        </p>
+        <a href="#">top</a>
+    </div>
+    <div class="container-others" id="others">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut pariatur voluptas cupiditate quasi aliquam eius
+            et voluptate, corporis voluptatibus nemo repudiandae eaque ipsam quas ipsum quam esse iste voluptatem ullam!
+        </p>
+        <a href="#">top</a>
+    </div>
+    </div>
+</body>
+
+</html>

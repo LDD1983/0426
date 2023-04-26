@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .container{
+            border: 10px solid #000;
+            width: 80%;
+            margin: auto;
+        }
+        
+        .c1{
+            width: 100%;
+            height: 300px;
+            background-color: #819187;
+        }
+        .c2{
+            
+            height: 350px;
+            
+        }
+        .c2> .b1{
+            width: 15%;
+            height: 150px;
+            float: left;
+            background-color: aqua;
+            
+        }
+        .c2> .b2{
+            width: 5%;
+            height: 500px;
+            margin-left: 300px;
+            float: left;
+            background-color: aquamarine;
+        }
+        .c2> .b3{
+            width: 25%;
+            float: right;
+            background-color: lightcoral;
+        }
+        .clear{
+            clear: both;
+        }
+        .c3{
+           height: 300px;
+        }
+        .c3> .b1{
+            height: 600px;
+            width: 10%;
+            float: left;
+            background-color: rgb(22, 180, 101);
+            
+        }
+        .c3> .b2{
+            width: 25%;
+            float:left;
+            /* margin:0px auto; */
+            margin-left: 10%;
+            background-color: rgb(131, 194, 50);
+        }
+        .c3> .b3{
+            width: 40%;
+            height: 800px;
+            float: right;
+            background-color: rgb(41, 29, 107);
+        }
+    </style>
+</head>
+<body>
+    <div class="container ">
+        <div class="con c1">
+
+        </div>
+        <div class="con c2">
+            <div class="con c2 b1"></div>
+            <div class="con c2 b2"></div>
+            <div class="con c2 b3"></div>
+        </div>
+        <div class="clear"></div>
+        <div class="con c3">
+            <div class="con c3 b1"></div>
+            <div class="con c3 b2"></div>
+            <div class="con c3 b3"></div>
+    
+        </div>
+        <div class="clear"></div>
+
+    </div>
+    
+</body>
+</html>

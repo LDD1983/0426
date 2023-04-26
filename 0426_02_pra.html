@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            font-family: 'simsum';
+            
+        }
+        body{
+            /* width 盡量設定為百分比 % */
+            width:90% ;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin: 30px auto;
+            border: 5px double black;
+            flex-wrap: wrap;
+            background-color: #fff;
+        }
+        .header,.nav,.main,.footer{
+            /* width 設為百分比 %  */
+            width: 70%;
+
+            
+            margin-top: 30px;
+        }
+        .header> p{
+            margin: -7px auto;
+        }
+        .nav{
+            border-top: 3px solid black;
+            border-bottom: 1px solid black;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+
+        }
+        
+        /* .nav > ul{ */
+            /* width 盡量設定為百分比 % */
+            /* width: 70%;
+            padding: 0px;
+            
+          
+            margin: 0px auto;
+        } */
+        /* ul>li{
+            display: inline-block;
+        } */
+        .nav >a{
+            /* display: block; */
+            height: 50px;
+            width: 200px;
+            text-decoration: none;
+            padding-top: 19px;
+            font-size: 12px;
+            letter-spacing: 2px;
+        }
+
+        .nav >a:visited{
+            color: black;
+        }
+        .nav >a:hover{
+            /* color: red; */
+            font-size: 5px;
+            font-family:Arial, Helvetica, sans-serif;
+            letter-spacing: 5px;
+            background-image: url(./img/bgit.png);
+            
+        }
+        .main > img{
+            width: 100%;
+
+        }
+
+              
+        footer{
+            /* width 盡量設定為百分比 % */
+            /* width: 1049px; */
+            text-align: center;
+            /* border: 1px solid #ccc; */
+            margin-bottom: 30px;
+            letter-spacing: 3px;
+        }
+
+        
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <p style="font-size: 12px; " >THE</p>
+        <p style="font-size: 30px;" >ANALOG</p>
+        <p style="font-size: 15px;letter-spacing: 3.5px;">SPECIALISTS</p>
+
+    </div>
+    <nav class="nav">
+             <a href="">HOME    </a>
+              <a href="">FOR SALE</a>
+              <a href="">REPAIRS </a>
+              <a href="">ABOUT   </a>
+              <a href="">CONTACT </a>
+
+    </nav>
+    <main class="main">
+        <img src="./img/content.png" alt="">
+    </main>
+    <footer class="footer">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus veniam tempore laborum nostrum adipisci
+        similique facilis saepe, sit voluptatem eligendi, qui maxime aut repudiandae asperiores atque esse nam? Placeat,
+        autem.
+    </footer>
+
+</body>
+
+</html>
